@@ -26,3 +26,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Build Solution
+      run: D:\C Drive Downloada\WebApplication4\WebApplication4.sln
